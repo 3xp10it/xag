@@ -14,7 +14,7 @@ with open(".xag_tmp_file.py","a+") as f:
     f.write(message)
 sysinfo=platform.system()
 if sysinfo=="Darwin":
-    cmd="/Applications/MacVim.app/Contents/MacOS/Vim ~/.xag_tmp_file.py"
+    cmd="/Applications/MacVim.app/Contents/MacOS/Vim .xag_tmp_file.py"
 elif sysinfo=="Linux":
     cmd="vim  .xag_tmp_file.py"
 os.system(cmd)

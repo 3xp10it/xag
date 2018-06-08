@@ -25,3 +25,4 @@ os.system("rm xag.py")
 with open("xag.py","a+") as f:
     f.write(encstr)
 os.system("rm .xag_tmp_file.py")
+

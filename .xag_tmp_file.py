@@ -377,3 +377,4 @@ TradeX.CloseTdx()
 print("\t按任意键退出...\n")
 
 msvcrt.getch()
+test
